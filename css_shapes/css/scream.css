@@ -1,0 +1,209 @@
+/* square circle triangle demo */
+
+body {
+background: #436060;
+}
+
+
+#square-1 {
+	font-size: 200%;
+	width: 4em;
+	height: 4em;
+	background: #f00;
+	}
+
+#circle-1 {
+	float: left;
+	font-size: 200%;
+	width: 4em;
+	height: 4em;
+	background: #0f0;
+	border-radius: 50%;
+	margin-left: 1em;
+	}
+
+#triangle-1 {
+	float: left;
+	font-size: 200%;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	border: 2em dashed transparent;
+	border-top: 0;
+	border-bottom: 4em solid #00f;
+	}
+
+/* candy corn */
+
+#candy-corn {
+	position: relative;
+	font-size: 300%;
+	width: 8em;
+	/* border: 1px dashed #000; */
+	margin: 0 auto;
+	}
+
+#candy-corn .corn {
+	width: 0;
+	height: 0;
+	line-height: 0;
+	border: 4em dashed transparent;
+	border-top: 0;
+	border-bottom: 8em solid #f90;
+	border-radius: .5em;
+	}
+
+#candy-corn .top-stripe  {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	border: 1em dashed transparent;
+	border-top: 0;
+	border-bottom: 2em solid #fff;
+	border-radius: .5em;
+	margin: 0 auto;
+	}
+
+#candy-corn .bottom-stripe  {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 6em;
+	height: 0;
+	line-height: 0;
+	border: 1em dashed transparent;
+	border-top: 0;
+	border-bottom: 2em solid #ff0;
+	border-radius: .5em;
+	margin: 0 auto;
+	}
+
+#devil {
+	position: relative;
+	font-size: 300%;
+	top:10%;
+	width: 8em;
+	border: 1px dashed #000;
+	margin: 10% auto;
+	}
+
+#devil .left-horn {
+	position:absolute;
+	font-size: 50%;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	border: 2em dashed transparent;
+	left: 15%;
+	border-top: 0;
+	border-bottom: 4em solid #FF0000;
+	}
+
+#devil .right-horn {
+	position:absolute;
+	font-size: 50%;
+	width: 0;
+	height:0;
+	line-height: 0;
+	top:0;
+	right:15%;
+	border: 2em dashed transparent;
+	border-top: 0;
+	border-bottom: 4em solid #FF0000;
+	}
+
+#devil .head {
+	font-size: 200%;
+	width: 4em;
+	height: 4em;
+	background: #FF0000;
+	border-radius: 50%;
+	margin: 10% auto;
+	}
+
+#devil .mouth {
+	position:absolute;
+	font-size: 75%;
+	width: 4em;
+	height: 0;
+	top:60%;
+	left:0;
+	right:0;
+	line-height: 0;
+	border: 1em dashed transparent;
+	border-top: 0;
+	border-bottom: 2em solid #FFFF00;
+	margin:0 auto;
+	}
+
+
+
+
+#devil .left-eye {
+	position:absolute;
+	font-size: 200%;
+	width: 0;
+	height: 0;
+	top:20%;
+	line-height: 0;
+	left: 18%;
+	border: 0.5em dashed transparent;
+	border-top: 0;
+	border-bottom: 1em solid #cc8400;
+	}
+
+#devil .right-eye {
+	position:absolute;
+	font-size: 200%;
+	width: 0;
+	height: 0;
+	top:20%;
+	line-height: 0;
+	right: 18%;
+	border: 0.5em dashed transparent;
+	border-top: 0;
+	border-bottom: 1em solid #cc8400;
+	}
+
+#devil .right-pupil {
+	position:absolute;
+	font-size: 100%;
+	width: 0;
+	height: 0;
+	top:28%;
+	line-height: 0;
+	right: 25%;
+	border: 0.5em dashed transparent;
+	border-top: 0;
+	border-bottom: 1em solid #332100;
+	}
+
+#devil .left-pupil {
+	position:absolute;
+	font-size: 100%;
+	width: 0;
+	height: 0;
+	top:28%;
+	line-height: 0;
+	left: 25%;
+	border: 0.5em dashed transparent;
+	border-top: 0;
+	border-bottom: 1em solid #332100;
+	}
+
+
+
+
+
+@media (min-width: 60em) {
+
+	#candy-corn {
+		display: none;
+		}
+
+}
