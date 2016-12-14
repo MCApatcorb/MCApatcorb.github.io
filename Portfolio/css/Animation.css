@@ -1,0 +1,97 @@
+/* general styles */
+
+body {
+	width: 90%;
+	max-width: 150em;
+	margin: 0 auto;
+	background: linear-gradient(90deg, rgb(23, 26, 29), rgb(96, 96, 96));
+}
+
+figure,
+figcaption {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* --- gallery --- */
+
+/* gallery structure */
+
+.gallery {
+	max-width: 40em; /* max-width of images with controls (prev/next) */
+	margin: auto;
+  overflow: hidden; /* Hide slides, except for current slide */
+}
+
+.gallery ol {
+  list-style: none;
+  width: 300%; /* Number of slides x 100% */
+  padding-left: 0;
+}
+
+/* gallery slide(s) */
+
+.gallery li {
+  position: relative;
+  float: left;
+  width: 33.333%; /* 100% divided by number of slides */
+  overflow: hidden;
+}
+
+.gallery figure {
+ display: block;
+ width: 90%;
+ margin: 0 auto;
+}
+
+/* gallery controls */
+
+.gallery .controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5%;
+  height: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.gallery .next {
+  right: 0;
+  left: auto;
+}
+
+.gallery .controls div {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  border: 1em dashed transparent;
+  border-left: 0;
+  border-right: 1em solid #333;
+  margin: auto 0;
+}
+
+.gallery .next div {
+  left: auto;
+  right: 0;
+  border-right: 0;
+  border-left: 1em solid #333;
+}
+
+/* :hover */
+
+.gallery .prev:hover div {
+  border-right-color: #999;
+}
+
+.gallery .next:hover div {
+  border-left-color: #999;
+}
