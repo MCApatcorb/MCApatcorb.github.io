@@ -1,13 +1,7 @@
-/* general styles */
-background {
-text {
-	color: #000;
-	}
 body {
 	width: 90%;
 	max-width: 150em;
 	margin: 0 auto;
-	background: linear-gradient(90deg, rgb(23, 26, 29), rgb(96, 96, 96));
 }
 
 figure,
@@ -98,3 +92,5 @@ img {
 .gallery .next:hover div {
   border-left-color: #999;
 }
+Contact GitHub API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Status Help
